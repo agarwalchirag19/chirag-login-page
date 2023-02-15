@@ -1,8 +1,10 @@
+import { FaFacebook, FaFacebookF, FaGoogle, FaLinkedinIn, FaRegEnvelope }from 'react-icons/fa';
+
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { FaFacebook, FaLinkedinIn, FaGoogle, FaFacebookF, FaRegEnvelope }from 'react-icons/fa';
 import{MdLockOutline}from 'react-icons/md';
+import styles from '../styles/Home.module.css'
+
 export default function Home() {
 return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-video">
@@ -12,7 +14,7 @@ return (
       </Head>
       
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <div className="bg-white rounded-2xl shadow-2xl flex w-2/3 max-w-4xl">  
+        <div className=" rounded-2xl shadow-2xl flex w-2/3 max-w-4xl">  
         <div className='w-3/5 p-5'>
             <div className='text-left font-bold'>
               <span className='text-black'>Crypto Cloud</span>
